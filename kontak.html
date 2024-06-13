@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KELOMPOK 3 - WEB KAMPUS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header-kedua">
+        <nav>
+            <a href="index.html"><img src="img/logo-universitas-bina-sarana-informatika-ubsi-removebg-preview.png"></a>
+            <div class="nav-links">
+
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="tentang.html">TENTANG</a></li>
+                    <li><a href="fakultas.html">FAKULTAS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>KONTAK</h1>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+
+    <!-- LOKASI -->
+
+    <section class="lokasi">
+        <h1>Lokasi Kampus Utama <span><i>UBSI</i></span></h1>
+        <p>Kampus Rektorat KRAMAT 98</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6089593923493!2d106.84003347423253!3d-6.183059360581425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f529e6d018f1%3A0xaff453c7ca93130e!2sUniversitas%20Bina%20Sarana%20Informatika%20Kampus%20Kramat%2098%20(UBSI%20Kramat%2098)!5e0!3m2!1sid!2sid!4v1700201773590!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+
+    <!-- LOKASI SELESAI -->
+
+    <h1 align="Center">HUBUNGI <span><i>KAMI</i></span></h1>
+
+    <section class="kontak">
+        <div class="tata-letak">
+            <div class="kontak-bsi">
+                <form action="kontak.php" method="post">
+
+                    <div class="form">
+                      <label for="">Nama Lengkap</label>
+                      <input type="text" id="" name="" placeholder="Masukkan Nama" pattern=[A-Z\sa-z]{3,20} required>                    
+                    </div>
+
+                    <div class="form">
+                      <label for="">Email</label>
+                      <input type="email" id="" name="" placeholder="Kelompok3@gmail.com" required>
+                    </div>
+                    
+                    <div class="form">
+                      <label for="">Status</label>
+                      <select id="" name="concerned_department" required>
+                          <option value="">--Pilih Disini--</option>
+                          <option value="">SMA/SMK</option>
+                          <option value="">D3/D4</option>
+                          <option value="">S1/S2</option>
+                      </select>
+                    </div>
+
+                    <div class="form">
+                      <label for="">Komentar Tentang WEB Kami</label>
+                      <textarea name="" placeholder="Masukkan" id="" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN KONTAK SELESAI -->
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+    <p>© Copyright 2023 | <span><i>KELOMPOK 3 WEB Programming 1</i></span> All Rights Reserved.</p>
+    </section>
+
+    <!-- FOOTER SELESAI -->
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER NAV */
+
+.header-pertama{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/snapedit_1699281179108.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img{
+    width: 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.tulisan{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.tulisan h1{
+    font-size: 62px;
+}
+
+.tulisan p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.tombol{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.tombol:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+/* HEADER NAV SELESAI*/
+
+/* FAKULTAS */
+
+.fakultas{
+    width: 80%;
+    margin: auto; 
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.tata-letak{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fakultas-bsi{
+    flex-basis: 31%;
+    background: #fff3ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.fakultas-bsi:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* FAKULTAS SELESAI */
+
+/* KAMPUS */
+
+.kampus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.kampus-bsi{
+    flex-basis:30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.kampus-bsi img{
+    width: 100%;
+    height: 300px; 
+    border-radius: 20px;
+}
+
+/* KAMPUS SELESAI */
+
+/* FASILITAS */
+
+.fasilitas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fasilitas-posisi{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.fasilitas-bsi{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.fasilitas-bsi img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FASILITAS SELESAI */
+
+/* HUBUNGI */
+
+.hubungi{
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px 0;
+    width: 80%;
+    background-image: url(img/banner6.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hubungi h1{
+    color: rgb(255, 238, 238);
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/* HUBUNGI SELESAI */
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+  
+.footer h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.footer p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+  
+.footer:hover {
+    background-color: #444;
+    transition: background-color 0.3s;
+}
+
+.footer p span{
+    color: orange;
+    font-weight: 600;
+}
+
+/* FOOTER SELESAI */
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+/* FILE TENTANG */
+
+.header-kedua{
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/benner0.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.header-kedua h1{
+    margin-top: 20px;
+}
+
+.tentang-bsi{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.tentang-bsi h1{
+    padding-top: 0;
+    margin-left: 20px;
+}
+
+.tentang-bsi p{
+    padding: 15px 0 25px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+span{
+    color: blue;
+}
+
+/* TENTANG BSI SELESAI */
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+/* GALLERY */
+
+.gallery{
+    margin: 100px;
+    text-align: center;
+}
+
+.gallery-bsi{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+    padding-left: 30px;
+}
+
+.gallery-bsi img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.gallery-bsi p{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* GALLERY SELESAI */
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+/* KONTAK */
+
+.lokasi{
+    width: 80%;
+    margin: auto;
+    padding:80px 0;
+}
+
+.lokasi h1, p{
+    text-align: center;
+    margin: 30px;
+}
+
+.lokasi iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.kontak{
+    width: 80%;
+    margin: auto;
+}
+
+.kontak-bsi{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+/* =====FORM===== */
+
+div.form {
+    margin: 20px 0;
+  }
+  
+label {
+    display: block;
+    padding-bottom: 4px;
+    font-size: 1em;
+}
+  
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 500px;
+    padding: 8px;
+}
+  
+textarea {
+    height: 250px;
+}
+  
+button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    border: 2px solid black;
+}
+
+/* =====FORM SELESAI===== */
+
+/* KONTAK SELESAI */
